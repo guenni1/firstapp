@@ -1,0 +1,39 @@
+.footerbtn {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #242424), color-stop(1, #212121) );
+	background:-moz-linear-gradient( center top, #242424 5%, #212121 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#242424', endColorstr='#212121');
+	background-color:#242424;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+text-indent:0px;
+	border:1px solid #262626;
+	display:inline-block;
+	color:#575757;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	font-style:normal;
+height:15px;
+	line-height:15px;
+width:100%;
+	text-decoration:none;
+	text-align:center;
+}.footerbtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #212121), color-stop(1, #242424) );
+	background:-moz-linear-gradient( center top, #212121 5%, #242424 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#212121', endColorstr='#242424');
+	background-color:#212121;
+}.footerbtn:active {
+	position:relative;
+	top:1px;
+}
